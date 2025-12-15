@@ -1,4 +1,4 @@
-import {getUsers} from "@/src/repository/user/user-repository";
+import {checkUser, getUserByEmail, getUsers} from "@/src/repository/user/user-repository";
 
 export type User = {
     id: number,
@@ -15,5 +15,11 @@ export const userService = {
                 name:user.name,
                 email:user.email,
             }))
+    },
+    getUserByEmail: async (email: string) => {
+        return await getUserByEmail(email);
+    },
+    checkUser: async (email: string, password: string) => {
+        return await checkUser(email, password);
     }
 }

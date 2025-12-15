@@ -17,4 +17,5 @@ model users {
   id    Int     @id
   name  String? @db.VarChar
   email String? @db.VarChar
+  password String @db.VarChar()
 }

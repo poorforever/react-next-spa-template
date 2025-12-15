@@ -41,3 +41,17 @@ yarn-error.log*
 next-env.d.ts
 
 /src/generated/prisma
+/generated/prisma/browser.ts
+/generated/prisma/internal/class.ts
+/generated/prisma/client.ts
+/generated/prisma/commonInputTypes.ts
+/.idea/data_source_mapping.xml
+/.idea/dataSources.xml
+/generated/prisma/enums.ts
+/generated/prisma/models/lawyers.ts
+/prisma/migrations/migration_lock.toml
+/generated/prisma/models.ts
+/generated/prisma/internal/prismaNamespace.ts
+/generated/prisma/internal/prismaNamespaceBrowser.ts
+/.idea/sqldialects.xml
+/generated/prisma/models/users.ts
