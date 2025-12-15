@@ -1,5 +1,5 @@
 {
   "build": "npm ci && next build",
-  "start": "docker-compose up -d && next dev",
+  "start": "docker-compose up -d; npx wait-port localhost:5432; next dev",
   "port": 3000
 }
