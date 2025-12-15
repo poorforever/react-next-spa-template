@@ -1,5 +1,5 @@
 {
-  "build": "npm ci && npm run build",
-  "start": "docker-compose up -d && npm run start",
+  "build": "npm ci && next build",
+  "start": "docker-compose up -d && next dev",
   "port": 3000
 }
