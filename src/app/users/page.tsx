@@ -1,4 +1,4 @@
-'use server'
+export const dynamic = 'force-dynamic'
 
 import {userService} from "@/src/service/user/user-service";
 
